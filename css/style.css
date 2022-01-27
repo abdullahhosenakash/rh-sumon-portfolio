@@ -1,0 +1,52 @@
+/* custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&family=Roboto:wght@900&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand-name{
+    font-family: 'Pacifico', cursive;
+}
+.font-roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.custom-bg-color{
+    background-color: #EEEFF1;
+}
+.date{
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 6em;
+    text-align: center;
+    top: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.link-hover{
+    color: black;
+    transition: 0.3s;
+}
+.link-hover:hover{
+    color: orange;
+}
+.footer-anchor{
+    color: white;
+}
+.footer-button{
+    background-color: black;
+    width: 167px;
+    height: 43px;
+    padding: 10px 20px;
+
+}
+.footer-button:hover{
+    background-color: orange;;
+}
+.hr-1{
+    width: 50%;
+    float: left;
+}
+.hr-2{
+    width: 50%;
+    float: right;
+}
